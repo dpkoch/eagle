@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;Frames&lt;/b&gt;
+&lt;p&gt;
+Frames and title blocks for schematic drawings
+&lt;p&gt;
+&lt;author&gt;Created by danielpkoch@gmail.com&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_11X17">
+<description>&lt;b&gt;Frame - 11x17&lt;/b&gt;
+&lt;p&gt;
+Frame for 11x17 size drawings, 3/8 inch printing margins</description>
+<frame x1="0" y1="0" x2="412.75" y2="260.35" columns="12" rows="8" layer="94"/>
+</symbol>
+<symbol name="FRAME_LETTER">
+<description>&lt;b&gt;Frame - Letter&lt;/b&gt;
+&lt;p&gt;
+Frame for letter size drawings, 3/8 inch printing margins</description>
+<frame x1="0" y1="0" x2="260.35" y2="196.85" columns="8" rows="5" layer="94"/>
+</symbol>
+<symbol name="REVISION_ENTRY">
+<description>&lt;b&gt;Revision Block Entry&lt;/b&gt;
+&lt;p&gt;
+A single entry for a revision history block</description>
+<text x="5.08" y="-3.81" size="2.1844" layer="94" align="bottom-center">&gt;REV</text>
+<wire x1="91.44" y1="0" x2="73.66" y2="0" width="0.254" layer="94"/>
+<text x="41.91" y="-3.81" size="2.1844" layer="94" align="bottom-center">&gt;DESCRIPTION</text>
+<text x="82.55" y="-3.81" size="1.9304" layer="94" align="bottom-center">&gt;DATE</text>
+<wire x1="73.66" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="73.66" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-5.08" x2="91.44" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="91.44" y1="-5.08" x2="91.44" y2="0" width="0" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="73.66" y1="-5.08" x2="73.66" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="REVISION_HEADER">
+<description>&lt;b&gt;Revision Block Header&lt;/b&gt;
+&lt;p&gt;
+Header for a revision history block</description>
+<text x="-45.72" y="-3.302" size="1.9304" layer="94" align="bottom-center">REVISIONS</text>
+<text x="-86.36" y="-8.89" size="1.9304" layer="94" align="bottom-center">REV.</text>
+<text x="-49.53" y="-8.89" size="1.9304" layer="94" align="bottom-center">DESCRIPTION OF CHANGE</text>
+<text x="-8.89" y="-8.89" size="1.9304" layer="94" align="bottom-center">DATE</text>
+<wire x1="-91.44" y1="0" x2="-91.44" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-91.44" y1="-5.08" x2="-91.44" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-91.44" y1="-10.16" x2="-81.28" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="-10.16" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-5.08" width="0" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="0" y1="0" x2="-91.44" y2="0" width="0" layer="94"/>
+<wire x1="-91.44" y1="-5.08" x2="-81.28" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="-5.08" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="-10.16" x2="-81.28" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TITLE_BLOCK">
+<description>&lt;b&gt;Title Block&lt;/b&gt;
+&lt;p&gt;
+Title block for schematic drawings</description>
+<text x="-53.34" y="36.83" size="3.048" layer="94" align="bottom-center">&gt;COMPANY</text>
+<text x="-92.71" y="27.94" size="1.9304" layer="94" align="bottom-center">&gt;DB_NAME</text>
+<text x="-92.71" y="21.59" size="1.9304" layer="94" align="bottom-center">&gt;DB_DATE</text>
+<text x="-67.31" y="27.94" size="1.9304" layer="94" align="bottom-center">&gt;CB_NAME1</text>
+<text x="-67.31" y="21.59" size="1.9304" layer="94" align="bottom-center">&gt;CB_NAME2</text>
+<text x="-41.91" y="27.94" size="1.9304" layer="94" align="bottom-center">&gt;CB_DATE1</text>
+<text x="-41.91" y="21.59" size="1.9304" layer="94" align="bottom-center">&gt;CB_DATE2</text>
+<text x="-15.24" y="27.94" size="1.9304" layer="94" align="bottom-center">&gt;SCALE</text>
+<text x="-15.24" y="21.59" size="1.9304" layer="94" align="bottom-center">&gt;DRAWING_NAME</text>
+<text x="-53.34" y="11.43" size="3.81" layer="94" align="bottom-center">&gt;PARTNAME</text>
+<text x="-99.06" y="1.27" size="3.048" layer="94" align="bottom-center">&gt;DRAWINGSIZE</text>
+<text x="-77.47" y="5.08" size="1.9304" layer="94" align="bottom-center">&gt;SHEETNR</text>
+<text x="-67.31" y="5.08" size="1.9304" layer="94" align="bottom-center">&gt;SHEETS</text>
+<text x="-38.1" y="1.27" size="3.048" layer="94" align="bottom-center">&gt;PARTNUMBER</text>
+<text x="-6.35" y="1.27" size="3.048" layer="94" align="bottom-center">&gt;REV</text>
+<text x="-104.14" y="30.48" size="1.27" layer="94">DRAWN BY</text>
+<text x="-104.14" y="24.13" size="1.27" layer="94">DATE</text>
+<text x="-52.07" y="30.48" size="1.27" layer="94">DATE</text>
+<text x="-52.07" y="24.13" size="1.27" layer="94">DATE</text>
+<text x="-80.01" y="24.13" size="1.27" layer="94">CHECKED BY</text>
+<text x="-80.01" y="30.48" size="1.27" layer="94">CHECKED BY</text>
+<text x="-29.21" y="30.48" size="1.27" layer="94">SCALE</text>
+<text x="-29.21" y="24.13" size="1.27" layer="94">FILENAME</text>
+<text x="-104.14" y="17.78" size="1.27" layer="94">PART NAME</text>
+<text x="-104.14" y="6.35" size="1.27" layer="94">DWG SIZE</text>
+<text x="-60.96" y="6.35" size="1.27" layer="94">PART NO.</text>
+<text x="-11.43" y="6.35" size="1.27" layer="94">REV.</text>
+<text x="-81.28" y="5.08" size="1.9304" layer="94" align="bottom-right">SHEET</text>
+<text x="-72.39" y="5.08" size="1.9304" layer="94" align="bottom-center">OF</text>
+<text x="-77.47" y="1.27" size="1.6764" layer="94" align="bottom-center">DO NOT SCALE DRAWING</text>
+<wire x1="0" y1="0" x2="-12.7" y2="0" width="0" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-62.23" y2="0" width="0" layer="94"/>
+<wire x1="-62.23" y1="0" x2="-92.71" y2="0" width="0" layer="94"/>
+<wire x1="-92.71" y1="0" x2="-105.41" y2="0" width="0" layer="94"/>
+<wire x1="-105.41" y1="0" x2="-105.41" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="8.89" x2="-105.41" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="20.32" x2="-105.41" y2="26.67" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="26.67" x2="-105.41" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="33.02" x2="-105.41" y2="44.45" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="44.45" x2="0" y2="44.45" width="0.254" layer="94"/>
+<wire x1="0" y1="44.45" x2="0" y2="33.02" width="0" layer="94"/>
+<wire x1="0" y1="33.02" x2="0" y2="26.67" width="0" layer="94"/>
+<wire x1="0" y1="26.67" x2="0" y2="20.32" width="0" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="8.89" width="0" layer="94"/>
+<wire x1="0" y1="8.89" x2="0" y2="0" width="0" layer="94"/>
+<wire x1="-105.41" y1="33.02" x2="-81.28" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="33.02" x2="-53.34" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="33.02" x2="-30.48" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="33.02" x2="0" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="26.67" x2="0" y2="26.67" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="20.32" x2="-81.28" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="20.32" x2="-53.34" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="20.32" x2="-30.48" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="20.32" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-105.41" y1="8.89" x2="-92.71" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-92.71" y1="8.89" x2="-62.23" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-62.23" y1="8.89" x2="-12.7" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-92.71" y1="8.89" x2="-92.71" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-92.71" y1="3.81" x2="-92.71" y2="0" width="0.254" layer="94"/>
+<wire x1="-62.23" y1="8.89" x2="-62.23" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-62.23" y1="3.81" x2="-62.23" y2="0" width="0.254" layer="94"/>
+<wire x1="-81.28" y1="33.02" x2="-81.28" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="33.02" x2="-53.34" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="33.02" x2="-30.48" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-62.23" y1="3.81" x2="-92.71" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="8.89" x2="-12.7" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_11X17">
+<description>&lt;b&gt;Frame - 11x17&lt;/b&gt;
+&lt;p&gt;
+Frame for 11x17 size drawings, 3/8 inch printing margins</description>
+<gates>
+<gate name="G$1" symbol="FRAME_11X17" x="0" y="0"/>
+<gate name="G$2" symbol="TITLE_BLOCK" x="408.94" y="3.81" addlevel="always"/>
+<gate name="G$3" symbol="REVISION_HEADER" x="408.94" y="256.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CB_DATE1" value="" constant="no"/>
+<attribute name="CB_DATE2" value="" constant="no"/>
+<attribute name="CB_NAME1" value="" constant="no"/>
+<attribute name="CB_NAME2" value="" constant="no"/>
+<attribute name="COMPANY" value="" constant="no"/>
+<attribute name="DB_DATE" value="" constant="no"/>
+<attribute name="DB_NAME" value="" constant="no"/>
+<attribute name="DRAWINGSIZE" value="B"/>
+<attribute name="PARTNAME" value="" constant="no"/>
+<attribute name="PARTNUMBER" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+<attribute name="SCALE" value="N/A" constant="no"/>
+<attribute name="_EXTERNAL_" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_LETTER">
+<description>&lt;b&gt;Frame - Letter&lt;/b&gt;
+&lt;p&gt;
+Frame for letter size drawings, 3/8 inch printing margins</description>
+<gates>
+<gate name="G$1" symbol="FRAME_LETTER" x="0" y="0"/>
+<gate name="G$2" symbol="TITLE_BLOCK" x="256.54" y="3.81" addlevel="always"/>
+<gate name="G$3" symbol="REVISION_HEADER" x="256.54" y="193.04" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CB_DATE1" value="" constant="no"/>
+<attribute name="CB_DATE2" value="" constant="no"/>
+<attribute name="CB_NAME1" value="" constant="no"/>
+<attribute name="CB_NAME2" value="" constant="no"/>
+<attribute name="COMPANY" value="" constant="no"/>
+<attribute name="DB_DATE" value="" constant="no"/>
+<attribute name="DB_NAME" value="" constant="no"/>
+<attribute name="DRAWINGSIZE" value="A"/>
+<attribute name="PARTNAME" value="" constant="no"/>
+<attribute name="PARTNUMBER" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+<attribute name="SCALE" value="N/A" constant="no"/>
+<attribute name="_EXTERNAL_" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION_ENTRY">
+<description>&lt;b&gt;Revision History Entry&lt;/b&gt;
+&lt;p&gt;
+An entry in a revision history block</description>
+<gates>
+<gate name="G$1" symbol="REVISION_ENTRY" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="DATE" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
