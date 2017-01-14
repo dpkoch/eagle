@@ -108,7 +108,7 @@
 <text x="-2" y="2.5" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2" y="-2.5" size="1.27" layer="27" font="vector" ratio="10" align="top-left">&gt;VALUE</text>
 </package>
-<package name="SOT23-6">
+<package name="SOT-23-6">
 <smd name="6" x="-0.95" y="1.35" dx="1.05" dy="0.6" layer="1" rot="R90"/>
 <smd name="5" x="0" y="1.35" dx="1.05" dy="0.6" layer="1" rot="R90"/>
 <smd name="4" x="0.95" y="1.35" dx="1.05" dy="0.6" layer="1" rot="R90"/>
@@ -238,7 +238,7 @@ Dual non-inverting buffer/driver with open-drain outputs</description>
 <gate name="P" symbol="PWRN" x="-20.32" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="" package="SOT23-6">
+<device name="BVR" package="SOT-23-6">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="Y" pad="6"/>
